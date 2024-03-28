@@ -1,0 +1,11 @@
+body {
+    background-color:  #F2F2F2; /* Le fond de la page sera  */
+    color: black; /* Le texte de la page sera  */
+}
+
+.conteneur {
+    display: flex;
+    flex-wrap:wrap; 
+   
+   
+}
