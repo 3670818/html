@@ -37,7 +37,7 @@ body {
     display: flex;
     flex: wrap;
     background-color: rgb(140, 240, 182);;
-    color: #0065FC;
+    text-decoration: none;
     border-top:3px solid #0065FC;
 
 
@@ -52,7 +52,7 @@ body {
     flex: wrap;
     background-color: rgb(140, 240, 182);
     padding-top: 10px ;
-    border-top:3px solid #0065FC;
+    
     
    
    
@@ -165,10 +165,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: red;
-    font-size: 12px;
-
-    
-
+    font-size: 12px; 
 }  
 
 /*nav balise a ajouter pour hebergement et activité git*/
@@ -181,6 +178,33 @@ body {
  
 }
 .lignefiltre a {
+    color: black;
+    text-decoration: none;
+}
+
+.cliquerhebergement:hover {
+ 
+    color:blue;
+   
+    display: flex;
+    flex: wrap;
+    
+    
+    border-top:3px solid #0065FC;
+
+    margin-top: 0px;
+
+
+    padding-top: 30px;
+ 
+
+}
+.hebergements a {
+    color: black;
+    text-decoration: none;
+}
+
+.activités a {
     color: black;
     text-decoration: none;
 }
