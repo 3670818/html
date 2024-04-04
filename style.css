@@ -34,6 +34,9 @@ body {
    
 } 
 .hebergements{
+    margin: 0 20px 0 auto;
+} 
+.elementmenu{
     display: flex;
     flex: wrap;
     background-color: rgb(140, 240, 182);;
@@ -42,11 +45,16 @@ body {
 
 
     gap: 68px;
-    margin: 0 20px 0 auto;
+    
     padding-top: 10px;
  
+    border-top: 3px solid transparent;
+
    
 } 
+.elementmenu:hover {
+    border-top: 3px solid  #0065FC;
+}
 .activités{
     display: flex;
     flex: wrap;
@@ -57,7 +65,9 @@ body {
    
    
 } 
-
+.elementmenu:hover  a{
+    color: #0065FC;
+}
 .block1 {
     display: flex;
     flex-wrap:wrap; 
@@ -85,10 +95,10 @@ body {
     font-size: 18px;
     background-color: #0065FC;
     color: white;
-    /*border: 1px solid skyblue;*/
+    border: 1px solid  #0065FC;
     border-radius: 0px 10px 10px 0px;;
     padding: 10px 8px 7px 8px;
-    border-color: #0065FC;
+   
 
 }
 .blockposition {
@@ -138,7 +148,7 @@ body {
     background-color: blue ;
    /* margin-top: 0px;*/
     font-size: 22px;
-    height: 55px;
+  
     /*background-size: 200px 100px;*/
    
     
@@ -183,23 +193,7 @@ body {
     text-decoration: none;
 }
 
-.cliquerhebergement:hover {
-    display: flex;
-    flex: wrap;
-    
-    color:blue;
-   
-   
-    
-    border-top:3px solid #0065FC;
 
-    margin-top: 0px;
-
-
-    padding-top: 30px;
- 
-
-}
 .hebergements a {
     color: black;
     text-decoration: none;
