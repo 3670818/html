@@ -7,7 +7,7 @@ body {
     font-family:"Raleway";/*ceci est un commentaire*/
 }
 
-.hebergementactivité {
+.hebergement-activité {      /*ligne 23 sur le html*/
     background-color: blueviolet;
     display: flex;
     flex-wrap:wrap; 
@@ -24,7 +24,7 @@ body {
    /*justify-content: flex-start*/   
 }
 
-.boxbooki{
+.logo-booki{         /*ligne 24 sur le html*/
     display: flex;
     flex-wrap: wrap;
     background-color: brown;
@@ -32,31 +32,28 @@ body {
     margin: 10px 50px 50px 0;
 } 
 
-.hebergements{
+.hebergements{           /*ligne 27 sur le html*/
     margin: 0 20px 0 auto;
+    
 } 
 
-.hebergements a {
+.hebergements a {           /*permet d'enlever la ligne sur le texte */
     color: black;
     text-decoration: none;
+    
 }
 
-.elementmenu{
+.elementmenu{               /*ligne 27 et 31 sur le html*/
     display: flex;
     flex: wrap;
-    background-color: rgb(140, 240, 182);;
-    text-decoration: none;
+    background-color: rgb(140, 240, 182);
     border-top:3px solid #0065FC;
-
-
-    gap: 68px;
-    
+    /*gap: 68px;*/
     padding-top: 10px;
- 
     border-top: 3px solid transparent;  
 } 
 
-.elementmenu:hover {
+.elementmenu:hover {       /* ligne bleu du hover*/
     border-top: 3px solid  #0065FC;
 }
 
@@ -68,53 +65,48 @@ body {
     display: flex;
     flex: wrap;
     background-color: rgb(140, 240, 182);
-    padding-top: 10px ;   
+    
 }
 
-.activités a {
+.activités a {              /*ligne 32 sur le html*/
     color: black;
     text-decoration: none;
 }
 
-.trouvez{
+.trouvez{               /* titre du site  (ligne 42 sur le html)*/
     display: flex;
     flex-wrap: wrap;
     background-color: blue ;
    /* margin-top: 0px;*/
     font-size: 22px;
-    padding-bottom: 0px;
-    border-bottom: 0px;
     font-weight: bolder;
-    Width:1340px;
+    Width:1340px;       /*est ce que c'est utile ?*/
     Height: 26px;
-
-    
-  
-    /*background-size: 200px 100px;*/   
+    margin-bottom: 10px;
+       
 }
 
-.centre-ville{
+.centre-ville{              /* sous-titre du site  (ligne 42 sur le html)*/
     display: flex;
     flex-wrap: wrap;
     background-color: brown;
-   /* margin-top: 0px;*/
-    font-size: 16px;
+    font-size: 16px;        /*est ce que c'est utile ?*/
     width: 300px;
     margin-bottom: 8px;
 }  
 
-.block1 {
+.block-recherche {          /* point pour chercher sur différentes villes  (ligne 49 sur le html)*/
     display: flex;
     flex-wrap:wrap; 
     align-items: center;
    /* justify-content:space-around;*/
    /*justify-content: flex-start*/
-   border-spacing: 15px;
+   border-spacing: 15px;        /*est ce que c'est utile ?*/
    margin-bottom: 10;   
    
 }
 
-.blockposition {
+.icon-position {            /*   (ligne 50 sur le html)*/
     font-size: 18px;
     border-radius: 10px 0px 0px 10px;
     padding: 10px 8px 7px 8px;
@@ -123,32 +115,31 @@ body {
     background-color: #F2F2F2;
 }
 
-.blockmarseillefrance {  
-    font-size:  18px;
-    font-weight: bold;
+.blockmarseillefrance {  /* ligne 55 sur le html*/
+    
     border-radius: 0px 0px 0px 0px;
    /* padding: 30px 80px 0px 8px;*/
    padding: 10px 8px 7px 8px;
-    border: 3px solid #F2F2F2;       
+    border: 1px solid #F2F2F2;       
 }
 
-.blockrecherche{ 
+.bouton-recherche{ 
     font-size: 18px;
     background-color: #0065FC;
     color: white;
-    border: 1px solid  #0065FC;
+    border: 1.5px solid  #0065FC;
     border-radius: 0px 10px 10px 0px;;
     padding: 10px 8px 7px 8px;
 }
 
-.lignefiltre {
+.lignefiltre {      /* pour pouvoir filtrer les recherches  (ligne 42 sur le html)*/
     display: flex;
     flex-wrap:wrap; 
     align-items: center;
    /* justify-content:space-around;*/
    /*justify-content: flex-start*/
-   border-spacing: 15px;
-   gap: 15px;                                                 
+   border-spacing: 15px;            /*la difference entre les deux*/
+    gap: 15px;                                                                         
    align-content: center;
    margin-bottom: 0px;
    margin-top: 0px;
@@ -179,24 +170,18 @@ body {
     border-radius: 30px 30px 30px 30px;
     gap: 10px;
     padding: 0px 5px 0px;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: flex-start;        /*est ce que c'est utile ?*/
+    align-items: center;        
     height: 40px;
 } 
 
-.info{
+.point-info{
     display: flex;
     flex-wrap: wrap;
     background-color: red;
     font-size: 12px; 
     margin-top: 10px;
 }  
-.element4 {
-    font-size:  x-small;;
-    border-radius: 20px;
-    padding: 0;
-   /* border: 1px solid black;*/    
-}
 
    
 
