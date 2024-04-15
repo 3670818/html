@@ -8,36 +8,29 @@ body {
 }
 
 .hebergement-activité {      /*ligne 23 sur le html*/
-    background-color: blueviolet;
+    
     display: flex;
     flex-wrap:wrap; 
     font-size: 16px;
-    
- /*   margin: 10px 10px 10px 0;
-   border-spacing: 15px;*/
-  
-   /* gap: 100px 20px;*/
 
-
-   /*align-items: center;*/
-   /* justify-content:space-around;*/
-   /*justify-content: flex-start*/   
 }
+ 
+
 
 .logo-booki{         /*ligne 24 sur le html*/
     display: flex;
     flex-wrap: wrap;
-    background-color: brown;
+    
     /*gap: 100px 50px;*/
     margin: 10px 50px 50px 0;
 } 
 
-.hebergements{           /*ligne 27 sur le html*/
-    margin: 0 20px 0 auto;
+.heberge{           /*ligne 27 sur le html*/
+    margin: 0 68px 0 auto;
     
 } 
 
-.hebergements a {           /*permet d'enlever la ligne sur le texte */
+.heberge a {           /*permet d'enlever la ligne sur le texte */
     color: black;
     text-decoration: none;
     
@@ -46,7 +39,7 @@ body {
 .elementmenu{               /*ligne 27 et 31 sur le html*/
     display: flex;
     flex: wrap;
-    background-color: rgb(140, 240, 182);
+    
     border-top:3px solid #0065FC;
     /*gap: 68px;*/
     padding-top: 10px;
@@ -64,8 +57,7 @@ body {
 .activités{
     display: flex;
     flex: wrap;
-    background-color: rgb(140, 240, 182);
-    
+ 
 }
 
 .activités a {              /*ligne 32 sur le html*/
@@ -76,12 +68,11 @@ body {
 .trouvez{               /* titre du site  (ligne 42 sur le html)*/
     display: flex;
     flex-wrap: wrap;
-    background-color: blue ;
+    
    /* margin-top: 0px;*/
     font-size: 22px;
     font-weight: bolder;
-    Width:1340px;       /*est ce que c'est utile ?*/
-    Height: 26px;
+
     margin-bottom: 10px;
        
 }
@@ -89,9 +80,8 @@ body {
 .centre-ville{              /* sous-titre du site  (ligne 42 sur le html)*/
     display: flex;
     flex-wrap: wrap;
-    background-color: brown;
-    font-size: 16px;        /*est ce que c'est utile ?*/
-    width: 300px;
+    
+   
     margin-bottom: 8px;
 }  
 
@@ -101,7 +91,7 @@ body {
     align-items: center;
    /* justify-content:space-around;*/
    /*justify-content: flex-start*/
-   border-spacing: 15px;        /*est ce que c'est utile ?*/
+       
    margin-bottom: 10;   
    
 }
@@ -110,26 +100,28 @@ body {
     font-size: 18px;
     border-radius: 10px 0px 0px 10px;
     padding: 10px 8px 7px 8px;
-    border: 3px solid #F2F2F2;
+    border: 4px solid #F2F2F2;
     /*overflow: hidden;*/
     background-color: #F2F2F2;
 }
 
 .blockmarseillefrance {  /* ligne 55 sur le html*/
-    
-    border-radius: 0px 0px 0px 0px;
-   /* padding: 30px 80px 0px 8px;*/
-   padding: 10px 8px 7px 8px;
-    border: 1px solid #F2F2F2;       
+    display: flex;
+    flex-wrap:wrap; 
+   padding: 0px 0px 0px 0px;
+   border: 1px solid #F2F2F2;    
+     
 }
 
 .bouton-recherche{ 
     font-size: 18px;
     background-color: #0065FC;
     color: white;
-    border: 1.5px solid  #0065FC;
+    border: 3px solid  #0065FC;
     border-radius: 0px 10px 10px 0px;;
     padding: 10px 8px 7px 8px;
+    font-weight: 700;
+
 }
 
 .lignefiltre {      /* pour pouvoir filtrer les recherches  (ligne 42 sur le html)*/
@@ -138,7 +130,7 @@ body {
     align-items: center;
    /* justify-content:space-around;*/
    /*justify-content: flex-start*/
-   border-spacing: 15px;            /*la difference entre les deux*/
+   
     gap: 15px;                                                                         
    align-content: center;
    margin-bottom: 0px;
@@ -160,17 +152,16 @@ body {
 .cliquer:hover {
     background-color: #DEEBFF;
     color: black;
-    border: 2px solid #DEEBFF;
     border-radius: 30px 30px 30px 30px;
 }
 
 .filtre{
     display: flex;
-    border: 2px solid rgb(191, 185, 185);
+    border: 2px solid  #D9D9D9;
     border-radius: 30px 30px 30px 30px;
     gap: 10px;
-    padding: 0px 5px 0px;
-    justify-content: flex-start;        /*est ce que c'est utile ?*/
+    padding: 4px 19px 4px 19px ;
+     
     align-items: center;        
     height: 40px;
 } 
@@ -178,15 +169,80 @@ body {
 .point-info{
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
-    font-size: 12px; 
+    
+    gap: 10px;
+    
     margin-top: 10px;
+    margin-bottom: 35px;
 }  
 
+input{
+    width: 300px;
+    padding: 10px 20px;
+    border-color: transparent;
+    font-size: 15px;
+    background: transparent;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  input::-webkit-input-placeholder {
+      padding-left: 5px;
+      font-size: 15px;
+      color: #3c3c3c;
+  }
+  
+
+
+  .hebergements-and-populaires{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+   justify-content: flex-end;
+   border-radius: 15px;
+   width: 600px;
+   padding: 30px 0px 0px 0px;
+   gap: 30px;
+   opacity: 0px;
+  
+} 
+.card {
+    display: flex;
+    flex-wrap:  wrap;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px;
+    padding: 10px;
+    gap: 24px;
+    width: 470px;
+    height: 146px;
+    opacity: 0px;
+}
+
+
+.card-content{
    
+}    
+.populaires-title{
+display: flex;
+flex-wrap: wrap;
+
+ 
+align-items: center;        
+gap: 35px;
 
 
 
+}   
+ 
 
 
 
+.card img{
+    width: 123px;
+height: 146px;
+border-radius: 20px 0px 0px 20px;
+
+} 
