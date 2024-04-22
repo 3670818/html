@@ -200,11 +200,11 @@ input{
   .hebergements-and-populaires{
     display: flex;
     flex-wrap: wrap;
-    background-color: #F2F2F2;
+   
     justify-content: space-between;
    border-radius: 15px;
   
-   padding: 30px 0px 0px 0px;
+   
    gap: 30px;
    opacity: 0px;
    width: Fixed (429px)px;
@@ -230,12 +230,6 @@ input{
 width: 369px;
 height: 146px;
 justify-content:flex-start
-
-
-
-    
-
-
 }
 
 
@@ -245,12 +239,8 @@ justify-content:flex-start
 .populaires-title{
 display: flex;
 flex-wrap: wrap;
-
- 
 align-items: center;        
 gap: 35px;
-
-
 
 }   
  
@@ -294,3 +284,45 @@ opacity: 0px;
     text-decoration: none;
     margin-top: 40px;
 }
+
+
+.hebergements
+{
+    padding: 30px 0px 0px 0px;
+    background-color: #F2F2F2;
+}
+.populaires{
+    padding: 30px 0px 0px 0px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px;
+    padding: 30px;
+}
+
+
+.iconpointinfo{
+  border: 1px solid #D9D9D9;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  color: #0065FC;
+  
+}
+
+.card-rating  {
+    color: #0065FC;
+}
+
+.card-rating-chateau {
+    color: #0065FC;
+}
+.neutral-star{
+    color: #F2F2F2;
+}
+
+  /*block .hebergement*/
+
