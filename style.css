@@ -439,9 +439,8 @@ border: 5px 0px 0px 0px;
 }
 
 
-.activités-a-marseille{
-    display: flex;
-    flex-wrap: nowrap;
+/*.activités-a-marseille{
+    
    
     justify-content: space-between;
    border-radius: 15px;
@@ -454,12 +453,12 @@ border: 5px 0px 0px 0px;
 
    
    
-} 
+} */
 
 
-.acti
+/*.acti
 {
-   /* padding: 30px 0px 0px 0px;*/
+   /* padding: 30px 0px 0px 0px
    display: flex;
    flex-wrap:  wrap;
    border-radius: 20px;
@@ -469,7 +468,7 @@ border: 5px 0px 0px 0px;
    
 
 }
-
+*/
 
 .card2 {
     display: flex;
@@ -498,6 +497,7 @@ border: 5px 0px 0px 0px;
   
     object-fit: cover;
      height: 400px;
+     width: 100%;
      
    
     gap: 10px;
@@ -529,14 +529,17 @@ a{
    
     display: flex;
     flex-wrap:wrap;
-    gap: 30px ;
-    width: 20%;
+    justify-content: space-between;
+    
     
    
    /*   align-items: center;
   justify-content: center;*/
 
 
+}
+.hebergements-cards2 a{
+    width: 23%;
 }
 
 footer{
@@ -546,8 +549,7 @@ footer{
     
 
 
-    align-items:baseline;
-    justify-content: center;
+   
     gap: 10px;
 
 
@@ -564,11 +566,10 @@ footer{
 
 .fin{
     display: flex;
-    flex-direction: wrap;
-    align-items:baseline;
-  
-    gap: 10px;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    
+    
+   /* justify-content:space-between;*/
     
 }
 
@@ -576,7 +577,8 @@ footer{
 .fi{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: 10px;
+    width: 30%;
     
  
 }
