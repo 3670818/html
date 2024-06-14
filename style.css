@@ -697,7 +697,9 @@ footer{
        
     }
 
-
+    .card1{
+        padding: 7px;
+    }
   
     .card2 img{
         height: 270px;
@@ -851,7 +853,7 @@ footer{
     height: 141px;
    }
    .activités-a-marseille{
-    margin: 0 30px 30px 30px;
+    margin: 0 50px 30px 50px;
 }
 
 
