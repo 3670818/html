@@ -42,7 +42,7 @@ body {
     
 }
 
-.elementmenu-activité{               /*ligne 27 et 31 sur le html*/
+.elementmenu{               /*ligne 27 et 31 sur le html*/
     display: flex;
     flex: wrap;
     
@@ -51,7 +51,7 @@ body {
     padding-top: 10px;
     border-top: 3px solid transparent;  
 } 
-.elementmenu-hebergement{               /*ligne 27 et 31 sur le html*/
+.elementmenu{               /*ligne 27 et 31 sur le html*/
     display: flex;
     flex: wrap;
     
@@ -102,7 +102,7 @@ body {
 
 .block-recherche {          /* point pour chercher sur différentes villes  (ligne 49 sur le html)*/
     display: flex;
-    flex-wrap:wrap; 
+    
     align-items: center;
    /* justify-content:space-around;*/
    /*justify-content: flex-start*/
@@ -166,6 +166,11 @@ body {
     background-color: white;
     gap: 10px;
 } 
+.tel-filtre{
+    display: flex;
+    gap: 10px;
+
+}
 
 .cliquer:hover {
     background-color: #DEEBFF;
@@ -257,6 +262,8 @@ input{
 
 
 .card-content{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
    
 }    
@@ -311,7 +318,7 @@ input{
     text-decoration: none;
     
     color: #0065FC;
-    margin: auto;
+    margin-top: auto;
     
     
 }
@@ -320,6 +327,7 @@ input{
 .card-rating-chateau  {
     text-decoration: none;
    margin: auto;
+   margin-top: auto;
 }
 
 
@@ -558,6 +566,7 @@ a{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    margin-bottom: 30px;
     
     
    
@@ -683,6 +692,8 @@ footer{
         width: 33%;
     }
     .card-content1{
+        display: flex;
+        flex-direction: column;
         height: 70px;
        
     }   
@@ -726,16 +737,29 @@ footer{
 /*version telephone*/
 
 @media all and (max-width: 768px) {
-    body{
-        max-width: 450px;
-
+    .logo-booki{
+        margin-right: 0;
     }
+    .trouvez, .centre-ville, .lignefiltre, .point-info, .block-recherche{
+        padding: 15px;
+    }
+    .input{
+        width: initial;
+    
+    }
+  
     .tel {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 50px;
         margin-left: 0;
+        width: 100%;
+    }
+
+    .point-info{
+        display: flex;
+        flex-wrap: nowrap;
     }
     .hebergement-activité{
         display: flex;
@@ -746,36 +770,29 @@ footer{
     }
     .heberge{           /*ligne 27 sur le html*/
         border-top-width: 50%;
+        margin: 0;
         
     } 
     
-    .elementmenu-activité{               /*ligne 27 et 31 sur le html*/
+    .elementmenu{               /*ligne 27 et 31 sur le html*/
         display: flex;
         flex: wrap;
         
-        border-bottom:3px solid #0065FC;
+        border-bottom:2px solid #F2F2F2;
+        padding-bottom: 10px;
         /*gap: 68px;*/
         padding-top: 10px;
         border-top: 3px solid transparent; 
         width: 50%; 
-        padding:0 100 0 0;
-    } 
-    .elementmenu-hebergement{               /*ligne 27 et 31 sur le html*/
-        display: flex;
-        flex: wrap;
+        justify-content: center;
         
-        border-bottom:3px solid #0065FC;
-        /*gap: 68px;*/
-        padding-top: 10px;
-        border-top: 3px solid transparent; 
-        width: 50%; 
-        padding:0 0 0 100;
     } 
+    
 
     
     .elementmenu:hover {       /* ligne bleu du hover*/
-        border-bottom: 3px solid  #0065FC;
-        border-top:  3px solid  transparent;
+        border-bottom-color:  #0065FC;
+        border-top-color:  transparent;
     }
     .bouton-recherche{
         display: none;
@@ -790,6 +807,12 @@ footer{
         padding: 12px 8px 7px 8px;
         font-weight: 700;
 
+    }
+    .tel-filtre{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    
     }
 
     .hebergements-and-populaires{
@@ -855,10 +878,20 @@ footer{
    .activités-a-marseille{
     margin: 0 50px 30px 50px;
 }
+.fin{
+    display: block;
+}
+
+.fi {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+
 
 
 }
-
+}
 
   
 /*
