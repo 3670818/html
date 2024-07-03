@@ -23,7 +23,7 @@ body {
     
     /*gap: 100px 50px;*/
    
-    margin: 10px 50px 50px 0;
+    margin: 20px 50px 50px 0;
 } 
 
 .heberge{           /*ligne 27 sur le html*/
@@ -88,7 +88,7 @@ body {
     font-size: 22px;
     font-weight: bolder;
 
-    margin-bottom: 10px;
+    margin-bottom: 5px;
        
 }
 
@@ -103,11 +103,12 @@ body {
 .block-recherche {          /* point pour chercher sur différentes villes  (ligne 49 sur le html)*/
     display: flex;
     
-    align-items: center;
+
    /* justify-content:space-around;*/
    /*justify-content: flex-start*/
        
-   margin-bottom: 10;   
+   margin-bottom: 30px;
+   margin-top: 30px;
    
 }
 
@@ -134,7 +135,6 @@ body {
     color: white;
     border: 3px solid  #0065FC;
     border-radius: 0px 10px 10px 0px;;
-    padding: 10px 8px 7px 8px;
     font-weight: 700;
 
 }
@@ -181,9 +181,9 @@ body {
 .filtre{
     display: flex;
     border: 2px solid  #D9D9D9;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 40px 40px 40px 40px;
     gap: 10px;
-    padding: 4px 19px 4px 19px ;
+    padding: 2px 19px 2px 19px ;
      
     align-items: center;        
     height: 40px;
@@ -195,8 +195,7 @@ body {
     
     gap: 10px;
     
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin: 30px 0;
 }  
 
 input{
@@ -205,6 +204,7 @@ input{
     border-color: transparent;
     font-size: 15px;
     background: transparent;
+    font-weight: bold;
   }
   
   input:focus{
@@ -250,7 +250,7 @@ input{
 
 
     width: 100%;
-    height: 146px;
+   /* height: 146px;*/
     justify-content:flex-start
 }
 .populaires-cards a {
@@ -286,15 +286,16 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
+    padding-bottom: 15px;
 
 
 }
 .card img{
   
     object-fit: cover;
-    width: 123px;
-    height: 146px;
+    width: 105px;
+    height: 122px;
     gap: 0px;
     border-radius: 20px 0px 0px 20px;
     border: 5px 0px 5px 5px;
@@ -307,6 +308,9 @@ input{
     font-size: 16px;
     color: black;
     text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
 }
 
 .card-txt a {
@@ -333,7 +337,7 @@ input{
 
 .hebergements
 {
-   padding: 0 15px;
+   padding: 0 25px;
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 65%;
@@ -398,15 +402,16 @@ input{
    
     opacity: 0px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    padding: 5px;
+    padding: 3px;
 border: 5px 0px 0px 0px;
 height: 100%;
-   
+   box-sizing: border-box;
     
 }
 
 
 .card-content1{
+    margin-left: 10px;
    
 }    
 .populaires-title{
@@ -414,6 +419,7 @@ height: 100%;
     flex-wrap: wrap;
     align-items: center;        
     gap: 35px;
+    margin-left: 10px;
 
 }   
 
@@ -431,7 +437,7 @@ height: 100%;
    
     Width: 100%;
 
-     Height:124px;
+     Height: 85px;
     
 
 
@@ -452,7 +458,9 @@ height: 100%;
   justify-content: center;
 
 }
-
+.hebergements h3{
+    margin-top: 10px;
+}
 
 .card-rating-hebergements {
     text-decoration: none;
@@ -462,7 +470,7 @@ height: 100%;
 }
 
 .section-title{
-    /*margin: 0 8px 0 auto;*/
+    margin: 30px 36px 30px 0;
    
     
 }
@@ -527,12 +535,20 @@ height: 100%;
    
     
 }
+.card-txt-activité-marseille h3 {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px 19px 20px 0px;
+}
 
 
 .card2 img{
   
     object-fit: cover;
-     height: 400px;
+     height: 340px;
      width: 100%;
      
    
@@ -602,6 +618,8 @@ footer{
 .fin{
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
+    padding-top: 0;
     
     
    /* justify-content:space-between;*/
@@ -614,8 +632,18 @@ footer{
     flex-direction: column;
     margin-left: 10px;
     width: 30%;
+    gap: 10px;
     
  
+}
+
+.fi h3 {
+    margin-bottom: 0;
+}
+
+.fi p {
+    margin:0;
+
 }
 
 
@@ -709,11 +737,16 @@ footer{
     }
 
     .card1{
-        padding: 7px;
+        padding: 4px;
+        padding-bottom: 20px;
     }
+
+    .card1 img{
+        height: 100px;
+    } 
   
     .card2 img{
-        height: 270px;
+        height: 250px;
 
     }
     .card2{
@@ -774,6 +807,8 @@ footer{
         text-align: center;
         justify-items: center;
     }
+
+    
     .heberge{           /*ligne 27 sur le html*/
         border-top-width: 50%;
         margin: 0;
@@ -865,7 +900,7 @@ footer{
     
     .hebergements-cards1 a{
         width: 100%;
-        height: 224px;
+        height: 230px;
 
     }
 
@@ -902,15 +937,13 @@ footer{
     width: 100%;
     
    }
-   .card2{
-    width: 325px;
-   }
+ 
 
    .card2 img {
     height: 141px;
    }
    .activités-a-marseille{
-    margin: 0 50px 30px 50px;
+    margin: 0 30px 30px 30px;
 }
 .fin{
     display: block;
@@ -919,7 +952,8 @@ footer{
 .fi {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-bottom: 20px;
+    
     width: 100%;
 
 
