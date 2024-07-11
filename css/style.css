@@ -20,9 +20,6 @@ body {
 .logo-booki{         /*ligne 24 sur le html*/
     display: flex;
     flex-wrap: wrap;
-    
-    /*gap: 100px 50px;*/
-   
     margin: 20px 50px 50px 0;
 } 
 
@@ -385,13 +382,6 @@ input{
     flex-direction: column;
     hebergement à marseille
 }*/
-
-
-
-
-
-
-
 .card1 {
     display: flex;
     flex-direction: column;
@@ -425,6 +415,9 @@ input{
     margin-left: 10px;
 
 }   
+.populaires-title i{
+    color: #0065FC;
+}
 
 
 
